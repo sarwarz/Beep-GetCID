@@ -1,0 +1,151 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.bc-section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.bc-box-wrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 670px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.bc-box-title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+}
+
+.bc-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.bc-input-container input:focus {
+    border-color: #ff6600;
+    box-shadow: 0 0 4px #ff6600;
+    outline: none;
+}
+
+.bc-input-container label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+.bc-input-container input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.bc-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.bc-output-text{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+
+.bc-box-footer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.bc-input-area{
+    margin-bottom: 10px;
+}
+
+.bc-input-area input:focus {
+    border-color: #ff6600;
+    box-shadow: 0 0 3px #ff6600;
+    outline: none;
+}
+
+.bc-footer-output-box {
+    padding-top: 25px;
+}
+
+.bc-api-response {
+    margin-top: 15px;
+}
+
+.bc-input-area input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    width: 77%;
+}
+
+.bc-input-area button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.bc-success {
+    background-color: #d4edda;
+    padding: 10px;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.bc-error {
+    background-color: #f8d7da;
+    padding: 10px;
+    color: #721c24;
+    border: 1px solid #f5c6cb;;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.bc-footer-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bc-footer-info span {
+    font-size: 15px;
+}
